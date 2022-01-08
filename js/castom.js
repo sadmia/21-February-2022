@@ -35,7 +35,7 @@ function counte() {
 	let minite = Math.floor(secend / 60);
 	let hour = Math.floor(minite / 24);
 	let day = Math.floor(hour / 24);
-	let manth = Math.floor(hour / 30);
+	let manth = Math.floor(day / 30);
 
 	let secend_v = secend % 60;
 	let minite_v = minite % 60;
