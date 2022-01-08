@@ -33,14 +33,14 @@ function counte() {
 
 	let secend = Math.floor(compare / 1000);
 	let minite = Math.floor(secend / 60);
-	let hour = Math.floor(minite / 24);
+	let hour = Math.floor(minite / 60);
 	let day = Math.floor(hour / 24);
 	let manth = Math.floor(day / 30);
 
 	let secend_v = secend % 60;
 	let minite_v = minite % 60;
-	let hour_v = hour % 24;
-	let day_v = day % 30;
+	let hour_v = hour % 60;
+	let day_v = day % 24;
 	let manth_v = manth % 30;
 
 	manth_txt.innerHTML = manth_v;
